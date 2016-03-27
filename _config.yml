@@ -1,10 +1,10 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title:       Karan Ahuja - The Free Geek.
+email:       karan@kodeplay.com
+author:      karan ahuja
+description: "Karan Ahuja - The Free Geek.I share my invention journey with all you awesome folks."
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "http://karanahuja.in"
 date_format: "%b %-d, %Y"
 
 # Google services
@@ -37,11 +37,11 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username:
+github_username: karan-ta
 bitbucket_username:
 stackoverflow_id:
-twitter_username:
-skype_username:
+twitter_username: karan_ta
+skype_username: karanahuja2015
 steam_nickname:
 google_plus_id:
 linkedin_username:
@@ -102,7 +102,7 @@ markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
-paginate:     4
+paginate:     7
 sass:
   compressed: true
 gems:

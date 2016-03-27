@@ -10,10 +10,6 @@
   background-image: none;
 }
 
-.site-header .site-title {
-  font-size: $h2;
-}
-
 .site-nav {
   margin-top: $space-2;
 }
@@ -40,11 +36,19 @@
 .posts .post a:hover .post-summary {
   opacity: 0.88;
 }
-
-.site-header {
-  text-align: center;
+.site-nav1 a{
+margin-right:1em;
+margin-top:0.5em;
+}
+header.site-header .site-title1 {
+font-size: 2rem;
+text-align:center;
+color:#F35F3E;
+font-weight:600;
+font-family: "Lato","Helvetica Neue",Helvetica,sans-serif;
+}
+header.site-header{
+margin:0px;
+padding:0px;
 }
 
-.site-header .site-nav {
-  text-align: center;
-}

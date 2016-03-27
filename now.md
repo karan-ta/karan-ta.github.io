@@ -1,9 +1,9 @@
 ---
 layout: page
-title: About
-permalink: /about/
-tags: about
-weight: 1
+title: Now
+permalink: /now/
+tags: now
+weight: 2
 ---
 
 This Jekyll theme was crafted with <3 by [John Otander](http://johnotander.com)

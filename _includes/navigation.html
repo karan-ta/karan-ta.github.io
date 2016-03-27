@@ -1,5 +1,9 @@
-{% for page in site.pages %}
-    {% if page.tags contains "about" %}
+{% assign pages = site.pages | sort:"weight"  %}
+{% for page in pages %}
+    {% if page.tags contains "about" or page.tags contains "now" 
+	or page.tags contains "products" or page.tags contains "newsletter" 
+        or page.tags contains "articles" %}
+
         <a href="{{ page.url }}">{{ page.title }}</a>
     {% endif %}
 {% endfor %}
