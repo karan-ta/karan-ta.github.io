@@ -5,17 +5,21 @@ permalink: /about/
 tags: about
 weight: 1
 ---
+Hello Fellow Internet Browser :)
+Thank you for reaching to my about page.
 
-This Jekyll theme was crafted with <3 by [John Otander](http://johnotander.com)
-([@4lpine](https://twitter.com/4lpine)).
+I am Karan Ahuja, a 32 year old dude living with my lovely family in mumbai.
+From my childhood - i feel wide awake/alive whenever I am around science and tech.
 
-Checkout the [Github repository](https://github.com/johnotander/pixyll) to download it,
-request a feature, report a bug, or contribute. It's free, and open source
-([MIT](http://opensource.org/licenses/MIT)).
+I am just started on my journey to create useful things by learning about technology.
+I think you too must be a geek like me.
+Look forward to share experiences, learnings, fun with you.
 
-Thanks to the following:
+You can email me about anything on karan@kodeplay.com
 
-* [BASSCSS](http://basscss.com)
-* [Jekyll](http://jekyllrb.com)
-* [Refills](http://refills.bourbon.io/)
-* [Type Scale](http://type-scale.com/)
+Peace.
+
+
+
+ 
+

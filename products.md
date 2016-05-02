@@ -6,16 +6,11 @@ tags: products
 weight: 4
 ---
 
-This Jekyll theme was crafted with <3 by [John Otander](http://johnotander.com)
-([@4lpine](https://twitter.com/4lpine)).
+* Business Coaching Call.
+* Technology Consulting call.
+* Blog setup service for you.
+* Ad-free blog and newsletter annual subscription. 
 
-Checkout the [Github repository](https://github.com/johnotander/pixyll) to download it,
-request a feature, report a bug, or contribute. It's free, and open source
-([MIT](http://opensource.org/licenses/MIT)).
 
-Thanks to the following:
+Please email me on karan@kodeplay.com to purchase any of the above products.
 
-* [BASSCSS](http://basscss.com)
-* [Jekyll](http://jekyllrb.com)
-* [Refills](http://refills.bourbon.io/)
-* [Type Scale](http://type-scale.com/)

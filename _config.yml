@@ -2,7 +2,7 @@
 title:       Karan Ahuja - The Free Geek.
 email:       karan@kodeplay.com
 author:      karan ahuja
-description: "Karan Ahuja - The Free Geek.I share my invention journey with all you awesome folks."
+description: "Karan Ahuja - The Free Geek. I share my invention journey with all you awesome folks."
 baseurl:     ""
 url:         "http://karanahuja.in"
 date_format: "%b %-d, %Y"
@@ -87,14 +87,13 @@ text:
     coming_soon: 'Coming soon...'
   contact:
     email:    'Email Address'
-    content:  'What would you like to say?'
     subject:  'New submission!'
-    submit:   'Say Hello'
+    submit:   'Subscribe To Monthly Newsletter.'
     ajax:
       sending:  'sending..'
       sent:     'Message sent!'
       error:    'Error!'
-  thanks: 'Thanks for contacting us. We will reply as soon as possible.'
+  thanks: 'Thanks for subscribing. I shall send you useful monthly news.'
   og_locale: 'en_US'
 
 # Build settings
