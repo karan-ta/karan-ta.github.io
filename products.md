@@ -8,9 +8,8 @@ weight: 4
 
 * Business Coaching Call.
 * Technology Consulting call.
-* Blog setup service for you.
-* Ad-free blog and newsletter annual subscription. 
+* setup service for your blog.
+* complete [systems and automation](http://www.workthesystem.com/) for your business.
 
-
-Please email me on karan@kodeplay.com to purchase any of the above products.
+Please email me on karan@kodeplay.com with the subject line as [Hire The Free Geek] to purchase any of the above products.
 
