@@ -16,7 +16,7 @@ Ensure this choice will be contributing towards my final mission.
 Breathe again.
 Enjoy the consequences of your conscious choice.
 
-### Visit certain sites during leisure time or training time.
+### Visit certain sites only during leisure time or training time.
 Social Media and many other sites are mainly for leisure 
 often disguised as education.
 Visit these sites under the time block (project) of leisure.
