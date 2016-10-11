@@ -1,4 +1,0 @@
----
-title: Thanks For Your Message
----
-$site_text_thanks$

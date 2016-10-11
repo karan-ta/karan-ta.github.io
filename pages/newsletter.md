@@ -1,4 +1,0 @@
----
-title: Newsletter
-tags: newsletter
----
