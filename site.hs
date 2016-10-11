@@ -17,8 +17,7 @@ import qualified Text.Blaze.Html5.Attributes     as A
 import           Data.Time
 --------------------------------------------------------------------------------
 host :: String
--- host = "http://karanahuja.in"
-host = "http://localhost:8000/"
+host = "http://karanahuja.in"
 
 siteName :: String
 siteName = "Karan Ahuja - The Free Geek."
