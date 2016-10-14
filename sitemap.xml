@@ -2,280 +2,280 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>http://localhost:8000//about/</loc>
+        <loc>http://karanahuja.in/about/</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2016-10-11</lastmod>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>http://localhost:8000//articles/</loc>
+        <loc>http://karanahuja.in/articles/</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2016-10-11</lastmod>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>http://localhost:8000//newsletter/</loc>
+        <loc>http://karanahuja.in/newsletter/</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2016-10-11</lastmod>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>http://localhost:8000//now/</loc>
+        <loc>http://karanahuja.in/now/</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2016-10-11</lastmod>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>http://localhost:8000//products/</loc>
+        <loc>http://karanahuja.in/products/</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2016-10-11</lastmod>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>http://localhost:8000//thanks/</loc>
+        <loc>http://karanahuja.in/thanks/</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2016-10-11</lastmod>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>http://localhost:8000//2016-06-02-Conversations-At-Mumbai-Computer-Club/</loc>
+        <loc>http://karanahuja.in/2016-06-02-Conversations-At-Mumbai-Computer-Club/</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2016-10-11</lastmod>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>http://localhost:8000//2016-05-18-How-To-Compute-Consciously/</loc>
+        <loc>http://karanahuja.in/2016-05-18-How-To-Compute-Consciously/</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2016-10-11</lastmod>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>http://localhost:8000//2016-05-17-Hledger-Improvements-Wishlist/</loc>
+        <loc>http://karanahuja.in/2016-05-17-Hledger-Improvements-Wishlist/</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2016-10-11</lastmod>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>http://localhost:8000//2016-05-11-my-gtd-start/</loc>
+        <loc>http://karanahuja.in/2016-05-11-my-gtd-start/</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2016-10-11</lastmod>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>http://localhost:8000//2016-03-23-the-best-resource-to-learn-svg/</loc>
+        <loc>http://karanahuja.in/2016-03-23-the-best-resource-to-learn-svg/</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2016-10-11</lastmod>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>http://localhost:8000//2016-03-23-resources-for-creatorsinventors-to/</loc>
+        <loc>http://karanahuja.in/2016-03-23-resources-for-creatorsinventors-to/</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2016-10-11</lastmod>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>http://localhost:8000//2016-03-23-investment-ideas-for-creatorsinventors/</loc>
+        <loc>http://karanahuja.in/2016-03-23-investment-ideas-for-creatorsinventors/</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2016-10-11</lastmod>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>http://localhost:8000//2016-03-22-the-daily-blogging-habit-is-on-sale/</loc>
+        <loc>http://karanahuja.in/2016-03-22-the-daily-blogging-habit-is-on-sale/</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2016-10-11</lastmod>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>http://localhost:8000//2016-03-22-my-current-projects-or-now-page/</loc>
+        <loc>http://karanahuja.in/2016-03-22-my-current-projects-or-now-page/</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2016-10-11</lastmod>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>http://localhost:8000//2016-03-16-top-5-ways-to-find-ideas-for-your-geeks/</loc>
+        <loc>http://karanahuja.in/2016-03-16-top-5-ways-to-find-ideas-for-your-geeks/</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2016-10-11</lastmod>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>http://localhost:8000//2016-03-16-the-number-one-reason-why-you-will/</loc>
+        <loc>http://karanahuja.in/2016-03-16-the-number-one-reason-why-you-will/</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2016-10-11</lastmod>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>http://localhost:8000//2016-03-16-my-bucket-list/</loc>
+        <loc>http://karanahuja.in/2016-03-16-my-bucket-list/</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2016-10-11</lastmod>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>http://localhost:8000//2016-03-14-places-to-visit-if-you-wish-to-be/</loc>
+        <loc>http://karanahuja.in/2016-03-14-places-to-visit-if-you-wish-to-be/</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2016-10-11</lastmod>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>http://localhost:8000//2016-03-06-why-i-started-facebook-page-called-rent/</loc>
+        <loc>http://karanahuja.in/2016-03-06-why-i-started-facebook-page-called-rent/</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2016-10-11</lastmod>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>http://localhost:8000//2016-03-05-how-to-get-started-as-investor-on/</loc>
+        <loc>http://karanahuja.in/2016-03-05-how-to-get-started-as-investor-on/</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2016-10-11</lastmod>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>http://localhost:8000//2016-02-28-things-i-wish-to-quit/</loc>
+        <loc>http://karanahuja.in/2016-02-28-things-i-wish-to-quit/</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2016-10-11</lastmod>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>http://localhost:8000//2016-02-28-the-path-to-monetizing-my-blog/</loc>
+        <loc>http://karanahuja.in/2016-02-28-the-path-to-monetizing-my-blog/</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2016-10-11</lastmod>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>http://localhost:8000//2016-02-28-the-creators-trap/</loc>
+        <loc>http://karanahuja.in/2016-02-28-the-creators-trap/</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2016-10-11</lastmod>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>http://localhost:8000//2015-07-11-announcing-pixyll-version-2/</loc>
+        <loc>http://karanahuja.in/2015-07-11-announcing-pixyll-version-2/</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2016-10-11</lastmod>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>http://localhost:8000//2014-09-02-what-happened-at-first-datameet-event/</loc>
+        <loc>http://karanahuja.in/2014-09-02-what-happened-at-first-datameet-event/</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2016-10-11</lastmod>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>http://localhost:8000//2014-06-11-welcome-to-pixyll/</loc>
+        <loc>http://karanahuja.in/2014-06-11-welcome-to-pixyll/</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2016-10-11</lastmod>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>http://localhost:8000//2014-06-10-see-pixyll-in-action/</loc>
+        <loc>http://karanahuja.in/2014-06-10-see-pixyll-in-action/</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2016-10-11</lastmod>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>http://localhost:8000//2014-06-09-so-what-is-jekyll/</loc>
+        <loc>http://karanahuja.in/2014-06-09-so-what-is-jekyll/</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2016-10-11</lastmod>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>http://localhost:8000//2014-06-08-pixyll-has-pagination/</loc>
+        <loc>http://karanahuja.in/2014-06-08-pixyll-has-pagination/</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2016-10-11</lastmod>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>http://localhost:8000//2014-05-28-my-motivation/</loc>
+        <loc>http://karanahuja.in/2014-05-28-my-motivation/</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2016-10-11</lastmod>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>http://localhost:8000//2014-02-18-why-arvind-kejriwal-has-inspired-and/</loc>
+        <loc>http://karanahuja.in/2014-02-18-why-arvind-kejriwal-has-inspired-and/</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2016-10-11</lastmod>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>http://localhost:8000//2013-11-18-what-happened-at-mumpy-november-17th/</loc>
+        <loc>http://karanahuja.in/2013-11-18-what-happened-at-mumpy-november-17th/</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2016-10-11</lastmod>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>http://localhost:8000//2013-11-16-startup-advice-for-hackers/</loc>
+        <loc>http://karanahuja.in/2013-11-16-startup-advice-for-hackers/</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2016-10-11</lastmod>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>http://localhost:8000//2013-11-16-all-of-my-coding-projects-so-far/</loc>
+        <loc>http://karanahuja.in/2013-11-16-all-of-my-coding-projects-so-far/</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2016-10-11</lastmod>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>http://localhost:8000//2013-09-24-what-happened-at-mumpy-on-sunday-22nd/</loc>
+        <loc>http://karanahuja.in/2013-09-24-what-happened-at-mumpy-on-sunday-22nd/</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2016-10-11</lastmod>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>http://localhost:8000//2013-09-03-lessons-learned-at-founders-meet/</loc>
+        <loc>http://karanahuja.in/2013-09-03-lessons-learned-at-founders-meet/</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2016-10-11</lastmod>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>http://localhost:8000//2013-08-31-inspirational-video-to-start-run-of/</loc>
+        <loc>http://karanahuja.in/2013-08-31-inspirational-video-to-start-run-of/</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2016-10-11</lastmod>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>http://localhost:8000//2013-08-29-the-illusion-of-b2b-business/</loc>
+        <loc>http://karanahuja.in/2013-08-29-the-illusion-of-b2b-business/</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2016-10-11</lastmod>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>http://localhost:8000//2013-08-28-will-mooc-replace-universities/</loc>
+        <loc>http://karanahuja.in/2013-08-28-will-mooc-replace-universities/</loc>
         <changefreq>weekly</changefreq>
         <lastmod>2016-10-11</lastmod>
         <priority>0.8</priority>

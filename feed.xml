@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Karan Ahuja - The Free Geek.</title>
-    <link href="http://localhost:8000//feed.xml" rel="self" />
-    <link href="http://localhost:8000/" />
-    <id>http://localhost:8000//feed.xml</id>
+    <link href="http://karanahuja.in/feed.xml" rel="self" />
+    <link href="http://karanahuja.in" />
+    <id>http://karanahuja.in/feed.xml</id>
     <author>
         <name>Karan Ahuja</name>
         <email>karan@kodeplay.com</email>
@@ -11,80 +11,80 @@
     <updated>2016-06-02T00:00:00Z</updated>
     <entry>
     <title>Conversations at the Mumbai Computer Club meeting on 2nd June 2016.</title>
-    <link href="http://localhost:8000//2016-06-02-Conversations-At-Mumbai-Computer-Club/" />
-    <id>http://localhost:8000//2016-06-02-Conversations-At-Mumbai-Computer-Club/</id>
+    <link href="http://karanahuja.in/2016-06-02-Conversations-At-Mumbai-Computer-Club/" />
+    <id>http://karanahuja.in/2016-06-02-Conversations-At-Mumbai-Computer-Club/</id>
     <published>2016-06-02T00:00:00Z</published>
     <updated>2016-06-02T00:00:00Z</updated>
     <summary type="html"><![CDATA[Karan Ahuja - The Free Geek. I share my invention journey with all of you.]]></summary>
 </entry>
 <entry>
     <title>How to compute consciously.</title>
-    <link href="http://localhost:8000//2016-05-18-How-To-Compute-Consciously/" />
-    <id>http://localhost:8000//2016-05-18-How-To-Compute-Consciously/</id>
+    <link href="http://karanahuja.in/2016-05-18-How-To-Compute-Consciously/" />
+    <id>http://karanahuja.in/2016-05-18-How-To-Compute-Consciously/</id>
     <published>2016-05-18T00:00:00Z</published>
     <updated>2016-05-18T00:00:00Z</updated>
     <summary type="html"><![CDATA[Karan Ahuja - The Free Geek. I share my invention journey with all of you.]]></summary>
 </entry>
 <entry>
     <title>Hledger Improvements Wishlist.</title>
-    <link href="http://localhost:8000//2016-05-17-Hledger-Improvements-Wishlist/" />
-    <id>http://localhost:8000//2016-05-17-Hledger-Improvements-Wishlist/</id>
+    <link href="http://karanahuja.in/2016-05-17-Hledger-Improvements-Wishlist/" />
+    <id>http://karanahuja.in/2016-05-17-Hledger-Improvements-Wishlist/</id>
     <published>2016-05-17T00:00:00Z</published>
     <updated>2016-05-17T00:00:00Z</updated>
     <summary type="html"><![CDATA[Karan Ahuja - The Free Geek. I share my invention journey with all of you.]]></summary>
 </entry>
 <entry>
     <title>My GTD beginning benefits.</title>
-    <link href="http://localhost:8000//2016-05-11-my-gtd-start/" />
-    <id>http://localhost:8000//2016-05-11-my-gtd-start/</id>
+    <link href="http://karanahuja.in/2016-05-11-my-gtd-start/" />
+    <id>http://karanahuja.in/2016-05-11-my-gtd-start/</id>
     <published>2016-05-11T00:00:00Z</published>
     <updated>2016-05-11T00:00:00Z</updated>
     <summary type="html"><![CDATA[Karan Ahuja - The Free Geek. I share my invention journey with all of you.]]></summary>
 </entry>
 <entry>
     <title>The best resource I found to to learn svg.</title>
-    <link href="http://localhost:8000//2016-03-23-the-best-resource-to-learn-svg/" />
-    <id>http://localhost:8000//2016-03-23-the-best-resource-to-learn-svg/</id>
+    <link href="http://karanahuja.in/2016-03-23-the-best-resource-to-learn-svg/" />
+    <id>http://karanahuja.in/2016-03-23-the-best-resource-to-learn-svg/</id>
     <published>2016-03-23T00:00:00Z</published>
     <updated>2016-03-23T00:00:00Z</updated>
     <summary type="html"><![CDATA[Karan Ahuja - The Free Geek. I share my invention journey with all of you.]]></summary>
 </entry>
 <entry>
     <title>Resources for creators/inventors to learn about passive income.</title>
-    <link href="http://localhost:8000//2016-03-23-resources-for-creatorsinventors-to/" />
-    <id>http://localhost:8000//2016-03-23-resources-for-creatorsinventors-to/</id>
+    <link href="http://karanahuja.in/2016-03-23-resources-for-creatorsinventors-to/" />
+    <id>http://karanahuja.in/2016-03-23-resources-for-creatorsinventors-to/</id>
     <published>2016-03-23T00:00:00Z</published>
     <updated>2016-03-23T00:00:00Z</updated>
     <summary type="html"><![CDATA[Karan Ahuja - The Free Geek. I share my invention journey with all of you.]]></summary>
 </entry>
 <entry>
     <title>One Investment idea for creators,inventors in mumbai</title>
-    <link href="http://localhost:8000//2016-03-23-investment-ideas-for-creatorsinventors/" />
-    <id>http://localhost:8000//2016-03-23-investment-ideas-for-creatorsinventors/</id>
+    <link href="http://karanahuja.in/2016-03-23-investment-ideas-for-creatorsinventors/" />
+    <id>http://karanahuja.in/2016-03-23-investment-ideas-for-creatorsinventors/</id>
     <published>2016-03-23T00:00:00Z</published>
     <updated>2016-03-23T00:00:00Z</updated>
     <summary type="html"><![CDATA[Karan Ahuja - The Free Geek. I share my invention journey with all of you.]]></summary>
 </entry>
 <entry>
     <title>The daily blogging habit is on sale below.</title>
-    <link href="http://localhost:8000//2016-03-22-the-daily-blogging-habit-is-on-sale/" />
-    <id>http://localhost:8000//2016-03-22-the-daily-blogging-habit-is-on-sale/</id>
+    <link href="http://karanahuja.in/2016-03-22-the-daily-blogging-habit-is-on-sale/" />
+    <id>http://karanahuja.in/2016-03-22-the-daily-blogging-habit-is-on-sale/</id>
     <published>2016-03-22T00:00:00Z</published>
     <updated>2016-03-22T00:00:00Z</updated>
     <summary type="html"><![CDATA[Karan Ahuja - The Free Geek. I share my invention journey with all of you.]]></summary>
 </entry>
 <entry>
     <title>My current projects or now page.</title>
-    <link href="http://localhost:8000//2016-03-22-my-current-projects-or-now-page/" />
-    <id>http://localhost:8000//2016-03-22-my-current-projects-or-now-page/</id>
+    <link href="http://karanahuja.in/2016-03-22-my-current-projects-or-now-page/" />
+    <id>http://karanahuja.in/2016-03-22-my-current-projects-or-now-page/</id>
     <published>2016-03-22T00:00:00Z</published>
     <updated>2016-03-22T00:00:00Z</updated>
     <summary type="html"><![CDATA[Karan Ahuja - The Free Geek. I share my invention journey with all of you.]]></summary>
 </entry>
 <entry>
     <title>Top 5 ways to find ideas for your (geek's) next side project.</title>
-    <link href="http://localhost:8000//2016-03-16-top-5-ways-to-find-ideas-for-your-geeks/" />
-    <id>http://localhost:8000//2016-03-16-top-5-ways-to-find-ideas-for-your-geeks/</id>
+    <link href="http://karanahuja.in/2016-03-16-top-5-ways-to-find-ideas-for-your-geeks/" />
+    <id>http://karanahuja.in/2016-03-16-top-5-ways-to-find-ideas-for-your-geeks/</id>
     <published>2016-03-16T00:00:00Z</published>
     <updated>2016-03-16T00:00:00Z</updated>
     <summary type="html"><![CDATA[Karan Ahuja - The Free Geek. I share my invention journey with all of you.]]></summary>
