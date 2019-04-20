@@ -6,20 +6,20 @@
 <body>
 <button id = "start_button">Start Learing with Audio</button>
 <script type="text/javascript">
+    var lessons = ['lesson1.mp3', 'lesson2.mp3', 'lesson3.mp3'];
+    var delays = [0,16000,32000]
     function playAudio (audio,delayValue) {
     	console.log ("inside playAudio")
     	setTimeout(() => {
         audio.play();
-    }, 2200 * delayValue);
+    },  delayValue);
     }
     document.getElementById("start_button").onclick = function(e){ 
     for (var i = 0; i < 4 ; i++) {
     	console.log ("playing "+i);
-        var audio = new Audio('t-rex-roar.mp3');
-        playAudio (audio,i);
-        
+        var audio = new Audio(lessons[i]);
+        playAudio (audio,delays[i]);
     	}	
-
     // var audio = new Audio('https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3');
     // setTimeout(() => {
     // audio.play();
