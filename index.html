@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<script type="text/javascript">
+    function playAudio (audio,delayValue) {
+    	console.log ("inside playAudio")
+    	setTimeout(() => {
+        audio.play();
+    }, 2800 * delayValue);
+    }
+    window.onload = function(e){ 
+    for (var i = 3; i >= 0; i--) {
+    	console.log ("playing "+i);
+        var audio = new Audio('https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3');
+        playAudio (audio,i+1);
+        
+    	}	
+
+    // var audio = new Audio('https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3');
+    // setTimeout(() => {
+    // audio.play();
+    // }, 600);
+}
+</script>
+</body>
+</html>
