@@ -4,18 +4,19 @@
 <title></title>
 </head>
 <body>
+<button id = "start_button">Start Learing with Audio</button>
 <script type="text/javascript">
     function playAudio (audio,delayValue) {
     	console.log ("inside playAudio")
     	setTimeout(() => {
         audio.play();
-    }, 2800 * delayValue);
+    }, 2200 * delayValue);
     }
-    window.onload = function(e){ 
-    for (var i = 1; i < 4 ; i++) {
+    document.getElementById("start_button").onclick = function(e){ 
+    for (var i = 0; i < 4 ; i++) {
     	console.log ("playing "+i);
         var audio = new Audio('t-rex-roar.mp3');
-        playAudio (audio,i+1);
+        playAudio (audio,i);
         
     	}	
 
