@@ -2,24 +2,42 @@
 <html>
 <head>
 <title></title>
+<style type="text/css">
+ /*   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">*/
+</style>
 </head>
 <body>
 <button id = "start_button">Start Linux Audio Tips</button>
 <script type="text/javascript">
     var lessons = ['lesson1.mp3', 'lesson2.mp3', 'lesson3.mp3'];
     var delays = [0,16000,32000]
-    function playAudio (audio,delayValue) {
+    function playAudio (audio,delayValue,index) {
     	console.log ("inside playAudio")
     	setTimeout(() => {
+        var j = index+1    ;
+    //     var all_cards = document.getElementsByClassName("card"); //divsToHide is an array
+    //     for(var i = 0; i < all_cards.length; i++){
+       
+    //     all_cards[i].style.display = "none";
+    // }
+        // document.getElementById (j).style.display="block";
+        // const currentDiv = document.getElementById (j);
+        // window.scrollTo({
+        // 'behavior': 'smooth',
+        // 'left': 0,
+        // 'top': currentDiv.offsetTop
+        // });
+        document.getElementById(j).scrollIntoView();
         audio.play();
     },  delayValue);
     }
     document.getElementById("start_button").onclick = function(e){ 
         this.style.display = 'none';
-    for (var i = 0; i < 4 ; i++) {
+    for (var i = 0; i < 3 ; i++) {
+       
     	console.log ("playing "+i);
         var audio = new Audio(lessons[i]);
-        playAudio (audio,delays[i]);
+        playAudio (audio,delays[i],i);
     	}	
     // var audio = new Audio('https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3');
     // setTimeout(() => {
@@ -27,5 +45,26 @@
     // }, 600);
 }
 </script>
+<div id = "1" class = "card" style = "border:1px solid red;height:200px;">
+Testing ...1
+</div>
+<div id = "2" class = "card" style = "border:1px solid red;height:200px;">
+Testing ...2
+</div>
+<div id = "3" class = "card" style = "border:1px solid red;height:200px;">
+Testing ...3
+</div>
+<div id = "4" class = "card" style = "border:1px solid red;height:200px;">
+Testing ...4
+</div>
+<div id = "5" class = "card" style = "border:1px solid red;height:200px;">
+Testing ...5
+</div>
+<div id = "6" class = "card" style = "border:1px solid red;height:200px;">
+Testing ...6
+</div>
+<div id = "7" class = "card" style = "border:1px solid red;height:200px;">
+Testing ...7
+</div>
 </body>
 </html>
