@@ -15,6 +15,7 @@
     },  delayValue);
     }
     document.getElementById("start_button").onclick = function(e){ 
+        this.style.display = 'none';
     for (var i = 0; i < 4 ; i++) {
     	console.log ("playing "+i);
         var audio = new Audio(lessons[i]);
