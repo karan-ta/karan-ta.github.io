@@ -27,7 +27,7 @@
         // 'left': 0,
         // 'top': currentDiv.offsetTop
         // });
-        document.getElementById(j).scrollIntoView();
+        document.getElementById(j).scrollIntoView({ block: "center", behaviour: "smooth" });
         audio.play();
     },  delayValue);
     }
