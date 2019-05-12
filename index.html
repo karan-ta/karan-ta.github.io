@@ -26,111 +26,13 @@
   <!-- Add Firebase products that you want to use -->
   <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-auth.js"></script>
   <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-firestore.js"></script>
-<script type="text/javascript">
- var firebaseConfig = {
-       apiKey: 'AIzaSyCgiteS_RLLeOh52Fyo-NtHNaPmvvWRiak',
-       authDomain: 'test-254a6.firebaseapp.com',
-       projectId: 'test-254a6'
-    };
 
-    // Initialize Firebase
-firebase.initializeApp(firebaseConfig);
-
-var db = firebase.firestore();
-db.collection("lessons").add({
-    card_title: "Ctrl + R",
-    card_description: "Ctrl+R allows you to search for a command that you have typed into the shell previously.<br/>just press <br/> Ctrl+R and then type the first few characters of the command that you are looking for.",
-    
-    audio_file: "lesson1.mp3",
-    delay: 0,
-    sort_order:1
-})
-.then(function(docRef) {
-    console.log("Document written with ID: ", docRef.id);
-})
-.catch(function(error) {
-    console.error("Error adding document: ", error);
-});
-var my_lessons = []
-db.collection("lessons")
-    .get()
-    .then(function(querySnapshot) {
-        querySnapshot.forEach(function(doc) {
-            // doc.data() is never undefined for query doc snapshots
-            console.log(doc.id, " => ", doc.data());
-            my_lessons.push (doc.data ());
-
-        });
-        console.log ("printing lessons array");
-        console.log (my_lessons);
-        var main_div = document.getElementById ("main_container");
-        for (i = 0; i < my_lessons.length; i++) {
-        console.log ("--------printing each element--------");
-        console.log (my_lessons[i].card_title);
-        console.log (my_lessons[i].card_description);
-        console.log (my_lessons[i].audio_file);
-        console.log (my_lessons[i].delay);
-        console.log (my_lessons[i].sort_order);
-        var div_container = document.createElement("div");
-        div_container.id = i+1;
-        div_container.style.border="1px solid #2ab7ca"
-        var card_title_span_container = document.createElement("span");
-        card_title_span_container.style.fontWeight = "bold";
-        card_title_span_container.innerHTML = my_lessons[i].card_title+"<br/>";
-        var card_description_span_container = document.createElement("span");
-        card_description_span_container.innerHTML = my_lessons[i].card_description;
-        div_container.append (card_title_span_container);
-        div_container.append (card_description_span_container);
-        main_div.append (div_container);
-        }
-
-    })
-    .catch(function(error) {
-        console.log("Error getting documents: ", error);
-    });
-</script>
 </head>
 <body>
 <button id = "start_button">Start Linux Audio Tips</button>
 <br/>
 <br/>
-<script type="text/javascript">
-    var lessons = ['lesson1.mp3', 'lesson2.mp3', 'lesson3.mp3'];
-    var delays = [0,16000,32000]
-    function playAudio (audio,delayValue,index) {
-    	console.log ("inside playAudio")
-    	setTimeout(() => {
-        var j = index+1    ;
-    //     var all_cards = document.getElementsByClassName("card"); //divsToHide is an array
-    //     for(var i = 0; i < all_cards.length; i++){
-       
-    //     all_cards[i].style.display = "none";
-    // }
-        // document.getElementById (j).style.display="block";
-        // const currentDiv = document.getElementById (j);
-        // window.scrollTo({
-        // 'behavior': 'smooth',
-        // 'left': 0,
-        // 'top': currentDiv.offsetTop
-        // });
-        document.getElementById(j).scrollIntoView();
-        audio.play();
-    },  delayValue);
-    }
-    document.getElementById("start_button").onclick = function(e){ 
-        this.style.display = 'none';
-    for (var i = 0; i < 3 ; i++) {
-    	console.log ("playing "+i);
-        var audio = new Audio(lessons[i]);
-        playAudio (audio,delays[i],i);
 
-    	}	
-    // var audio = new Audio('https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3');
-    // setTimeout(() => {
-    // audio.play();
-    // }, 600);
-}
-</script>
 <div id = "main_container">
 
 </div>
@@ -188,5 +90,107 @@ Testing ...13
 <div id = "14" class = "card" style = "border:1px solid red;height:300px;">
 Testing ...14
 </div> -->
+<script type="text/javascript">
+ var firebaseConfig = {
+       apiKey: 'AIzaSyCgiteS_RLLeOh52Fyo-NtHNaPmvvWRiak',
+       authDomain: 'test-254a6.firebaseapp.com',
+       projectId: 'test-254a6'
+    };
+
+    // Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+
+var db = firebase.firestore();
+var audio_lesson_files = [];
+var audio_delays = [];
+// db.collection("lessons").add({
+//     card_title: "Ctrl + R",
+//     card_description: "Ctrl+R allows you to search for a command that you have typed into the shell previously.<br/>just press <br/> Ctrl+R and then type the first few characters of the command that you are looking for.",
+    
+//     audio_file: "lesson1.mp3",
+//     delay: 0,
+//     sort_order:1
+// })
+// .then(function(docRef) {
+//     console.log("Document written with ID: ", docRef.id);
+// })
+// .catch(function(error) {
+//     console.error("Error adding document: ", error);
+// });
+var my_lessons_data = []
+db.collection("lessons").orderBy("sort_order").get()
+    .then(function(querySnapshot) {
+        querySnapshot.forEach(function(doc) {
+            // doc.data() is never undefined for query doc snapshots
+            console.log(doc.id, " => ", doc.data());
+            my_lessons_data.push (doc.data ());
+
+        });
+        var main_div = document.getElementById ("main_container");
+        for (i = 0; i < my_lessons_data.length; i++) {
+        audio_lesson_files.push (my_lessons_data[i].audio_file) ;
+        audio_delays.push (my_lessons_data[i].delay);   
+        console.log ("--------printing each element--------");
+        console.log (my_lessons_data[i].card_title);
+        console.log (my_lessons_data[i].card_description);
+        console.log (my_lessons_data[i].audio_file);
+        console.log (my_lessons_data[i].delay);
+        console.log (my_lessons_data[i].sort_order);
+        var div_container = document.createElement("div");
+        div_container.id = i+1;
+        div_container.style.border="1px solid #2ab7ca"
+        var card_title_span_container = document.createElement("span");
+        card_title_span_container.style.fontWeight = "bold";
+        card_title_span_container.innerHTML = my_lessons_data[i].card_title+"<br/>";
+        var card_description_span_container = document.createElement("span");
+        card_description_span_container.innerHTML = my_lessons_data[i].card_description;
+        div_container.append (card_title_span_container);
+        div_container.append (card_description_span_container);
+        main_div.append (div_container);
+        }
+
+    })
+    .catch(function(error) {
+        console.log("Error getting documents: ", error);
+    });
+
+   
+    function playAudio (audio,delayValue,index) {
+        console.log ("inside playAudio")
+        setTimeout(() => {
+        var j = index+1    ;
+    //     var all_cards = document.getElementsByClassName("card"); //divsToHide is an array
+    //     for(var i = 0; i < all_cards.length; i++){
+       
+    //     all_cards[i].style.display = "none";
+    // }
+        // document.getElementById (j).style.display="block";
+        // const currentDiv = document.getElementById (j);
+        // window.scrollTo({
+        // 'behavior': 'smooth',
+        // 'left': 0,
+        // 'top': currentDiv.offsetTop
+        // });
+        document.getElementById(j).scrollIntoView();
+        console.log ("inside timeout about to play")
+        audio.play();
+    },  delayValue);
+    }
+    document.getElementById("start_button").onclick = function(e){ 
+        this.style.display = 'none';
+    for (var i = 0; i < 3 ; i++) {
+        console.log ("playing "+i);
+        console.log (audio_lesson_files);
+        console.log (audio_delays);
+        var audio = new Audio(audio_lesson_files[i]);
+        playAudio (audio,audio_delays[i],i);
+
+        }   
+    // var audio = new Audio('https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3');
+    // setTimeout(() => {
+    // audio.play();
+    // }, 600);
+}
+</script>
 </body>
 </html>
