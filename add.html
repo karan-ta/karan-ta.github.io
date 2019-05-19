@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guruji-Says</title>
+	<style type="text/css">
+	body,div{
+    font-size:1.2em;
+   margin: 0 auto;
+   padding:3%;
+   text-align:center;
+   font-family: Verdana, Geneva, sans-serif;
+
+ }
+ button{
+    height:2em;
+    font-size:100%;
+ }
+ button {
+    border: 0;
+    background: #2ab7ca;
+    padding: 0.5em 1em;
+}
+
+button:active, button:hover {
+    background: #000;
+    color: #fff;
+}
+
+button[disabled] {
+    background: #ccc;
+    color: #000;
+}
+ li{
+ 	list-style-type: none;
+ }
+ .add_snippet_button {
+ 	background-color: #4CAF50;
+ 	color:#FFF;
+ }
+ .merablue {
+ 	color :#2ab7ca;
+ }
+ .bold {
+ 	font-weight: bold;
+ }
+ label{
+ 	font-weight: bold;
+ }
+</style>
+var audioBlob;
+<script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-app.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-firestore.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-storage.js"></script>
+
+  <script src="record-live-audio.js"></script>
+</head>
+<body>
+<h1 class = "merablue"> Guruji-Says.</h1>
+
+<label>Snippet Title</label><br/>
+<textarea id = "snippet_title" rows="4" cols="50"></textarea><br/><br>
+<label>Snippet Description</label><br/>
+<textarea id = "snippet_desc" rows="8" cols="50"></textarea>
+<br/>
+ <p><button id="record" disabled>Record audio</button> <button id="stop" disabled>Stop</button></p>
+ <p><audio id="audio" controls></audio></p>
+<button id = "add_snippet_button">Add Snippet For Approval</button>
+<!-- <script type="text/javascript">
+	var firebaseConfig = {
+       apiKey: 'AIzaSyCgiteS_RLLeOh52Fyo-NtHNaPmvvWRiak',
+       authDomain: 'test-254a6.firebaseapp.com',
+       projectId: 'test-254a6',
+       storageBucket: 'gs://test-254a6.appspot.com/'
+    };
+
+    // Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+var storage = firebase.storage();
+
+</script> -->
+</body>
+</html>
