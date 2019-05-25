@@ -31,7 +31,7 @@ var storageRef = storage.ref();
 var audio_filename = "audio_"+new Date().getTime();
 var audioRef = storageRef.child('audios/'+audio_filename);
 var db = firebase.firestore();
-
+var totalUploadedDocuments = db.collection("lessons").
   document.getElementById("add_snippet_button").onclick = function(e){ 
   if (validateParameters ()) {
     audioRef.put(audioBlob).then(function(snapshot) {

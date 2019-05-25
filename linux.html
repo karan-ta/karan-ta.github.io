@@ -154,47 +154,28 @@ db.collection("lessons").orderBy("sort_order", "desc").get()
         console.log("Error getting documents: ", error);
     });
 
-   
-    function playAudio (audio,delayValue,index) {
-        console.log ("inside playAudio")
-        setTimeout(() => {
-        var j = index+1    ;
-    //     var all_cards = document.getElementsByClassName("card"); //divsToHide is an array
-    //     for(var i = 0; i < all_cards.length; i++){
-       
-    //     all_cards[i].style.display = "none";
-    // }
-        // document.getElementById (j).style.display="block";
-        // const currentDiv = document.getElementById (j);
-        // window.scrollTo({
-        // 'behavior': 'smooth',
-        // 'left': 0,
-        // 'top': currentDiv.offsetTop
-        // });
-        document.getElementById(j).scrollIntoView();
-        console.log ("inside timeout about to play")
-        audio.play();
-    },  delayValue);
-    }
     document.getElementById("start_button").onclick = function(e){ 
-        this.style.display = 'none';
-    for (var i = 0; i < my_lessons_data.length ; i++) {
-        console.log ("playing "+i);
-        console.log (audio_lesson_files);
-        console.log (audio_delays);
-        var audio = new Audio(audio_lesson_files[i]);
-        if (i>0)
-        playAudio (audio,audio_delays[i-1],i);
-        else
-             playAudio (audio,0,i);
+         this.style.display = 'none';
+         var audio = new Audio ();
+         var currentAudioPlayingCounter = 0;
+         document.getElementById(currentAudioPlayingCounter+1).scrollIntoView();
+         audio.src = audio_lesson_files[currentAudioPlayingCounter];
+         console.log ("we will now play these files one by one:");
+         console.log (audio_lesson_files);
+         console.log ("about to play file number "+currentAudioPlayingCounter);
+         audio.play ();
+         audio.onended = function() {
+            currentAudioPlayingCounter ++;
+            document.getElementById(currentAudioPlayingCounter+1).scrollIntoView();
+            console.log ("about to play file number "+currentAudioPlayingCounter);
+            audio.src = audio_lesson_files[currentAudioPlayingCounter];
+            audio.play ();
 
 
-        }   
-    // var audio = new Audio('https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3');
-    // setTimeout(() => {
-    // audio.play();
-    // }, 600);
-}
+         }
+
+    }
+   
 </script>
 </body>
 </html>
