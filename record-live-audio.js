@@ -73,10 +73,10 @@ var totalUploadedDocuments = db.collection("lessons").
 }
 
 window.onload = function () {
-  saveToDB ();
+ 
   recordButton = document.getElementById('record');
   stopButton = document.getElementById('stop');
-
+  saveToDB ();
   // get audio stream from user's mic
   navigator.mediaDevices.getUserMedia({
     audio: true
